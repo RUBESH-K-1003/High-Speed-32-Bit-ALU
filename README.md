@@ -34,12 +34,14 @@ Opcode	Operation
 
 A (10)	4x4 Matrix Multiplication
 
+
 ⚡ High-Speed Arithmetic Units:
 Sparse Kogge-Stone Adder – for fast addition
 
 Sparse Kogge-Stone Subtracter – for subtraction
 
 Dadda Multiplier – for high-speed multiplication
+
 
 🔄 Special Case: 4x4 Matrix Multiplication
 
