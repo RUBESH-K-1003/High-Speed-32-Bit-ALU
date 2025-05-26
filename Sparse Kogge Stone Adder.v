@@ -24,3 +24,12 @@ FA FA5 (.a(A[5]), .b(B[5]), .cin(C[5]), .sum(Sum[5]), .cout());
 FA FA6 (.a(A[6]), .b(B[6]), .cin(C[6]), .sum(Sum[6]), .cout());
 FA FA7 (.a(A[7]), .b(B[7]), .cin(C[7]), .sum(Sum[7]), .cout(Cout));
 endmodule
+
+
+module FA(
+    input  wire a, b, cin,
+    output wire sum, cout
+);
+assign sum  = a ^ b ^ cin;
+assign cout = (a & b) | (b & cin) | (a & cin);
+endmodule
