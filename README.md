@@ -32,7 +32,9 @@ Executed only when all 4 opcode fields are set to 0xA (opcode = 0xAAAA).
 The 32-bit data input is treated as a 4×4 matrix with 16 elements
 Each matrix element is represented using 2 bits
 Only binary values are valid:
+
 ➤ Each element must be either 0 or 1
+
 ➤ No decimal values >1 allowed
 The 32 bits are mapped row-wise:
 First 2 bits → Row 1, Column 1
