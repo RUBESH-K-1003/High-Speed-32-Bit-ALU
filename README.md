@@ -35,6 +35,8 @@ Opcode	Operation
 A (10)	4x4 Matrix Multiplication
 
 
+
+
 ⚡ High-Speed Arithmetic Units:
 Sparse Kogge-Stone Adder – for fast addition
 
